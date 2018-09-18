@@ -31,7 +31,7 @@ function lookup(){
     }
 
   console.log("Searching ...");
-  console.log(`Found ${result.rowCount} persons by the name '${first_name}'`)
+  console.log(`Found ${result.rowCount} person(s) by the name '${first_name}'`)
   let count = 1;
 
   result.rows.forEach(obj => {
