@@ -7,7 +7,7 @@ const knex = require('knex')({
         host: settings.hostname,
         user: settings.user,
         password: settings.password,
-        database: 'test_db'
+        database: settings.database
     }
 });
 
